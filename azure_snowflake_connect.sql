@@ -12,9 +12,12 @@ Benefit:
 Snowflake Documentation
     https://docs.snowflake.com/en/user-guide/data-load-azure-config.html#option-1-configuring-a-snowflake-storage-integration
 
-    Elitmind presentation
-        https://youtu.be/jTIStJfCbdY?t=241
-        
+Nine-minute Youtube demo of this script:
+    https://youtu.be/IEzsWsbDDcA
+
+Github:
+    https://github.com/allen-wong-tech/snowflake_azure/edit/master/azure_snowflake_connect.sql
+
 Agenda:
     Prerequisites:
         In Azure, create a storage container and populate some data in it
@@ -34,7 +37,7 @@ Agenda:
 
 -----------------------------------------------------
 --Test Driven Developement: list an Azure Storage Container from Snowflake
---This will work once this tutorial is complete
+--Please note it might take up to an hour after these steps are complete for Azure to setup the Snowflake app.
 list @azure_stage_2;
 
 
